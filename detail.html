@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+
+                <!-- Logo / Brand -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <span>P</span>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Paris</h1>
+                        <p>City of Light</p>
+                    </div>
+                </div>
+
+                <!-- Navigation Menu (Desktop Only) -->
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html"><button class="nav-button">Home</button></a></li>
+                        <li><button class="nav-button" style="background-color: rgba(255,255,255,0.6); color: #1d4ed8;">About Paris</button></a></li>
+                    </ul>
+                <!-- Mobile Menu Toggle (Checkbox Hack) -->
+                </nav>
+
+                <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+                <label for="menu-toggle" class="hamburger">
+                    <div class="line top"></div>
+                    <div class="line middle"></div>
+                    <div class="line bottom"></div>
+                </label>
+
+            </div>
+
+            <!-- Mobile Navigation Menu (Shown when toggled) -->
+            <div class="mobile-menu">
+                <nav>
+                    <ul>
+                        <li><button class="nav-button">Home</button></li>
+                        <li><button class="nav-button">About Paris</button></li>
+                        <li><button class="nav-button disabled">Gallery</button></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    
+
+
+      <section class="heros">
+
+    <!-- <header class="headers">
+      <div class="headers-container">
+
+        <div class="logos">
+          <div class="logos-icon">P</div>
+          <div>
+            <h1>Paris</h1>
+            <p>City of Light</p>
+          </div>
+        </div>
+
+        <nav class="nav-linkss">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Paris</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
+        </nav>
+
+        <div class="menu-toggles">
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <nav class="mobile-navs">
+            <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">About Paris</a></li>
+              <li><a href="#">Gallery</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </header> -->
+
+    <div class="heros-content">
+      <div>
+        <h1>About Paris</h1>
+        <p>Discover the City of Light's rich history, romantic culture, and artistic heritage</p>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <section class="sections">
+    <div class="sections-container">
+      <div class="sections-content">
+        <h2>The City of Light</h2>
+        <div class="sections-texts">
+          <p>
+            Paris, the capital city of France, is one of the
+            world's most beloved metropolitan areas and a
+            global center of art, fashion, and culture.
+            Founded over 2,000 years ago, this historic city
+            has evolved into the City of Light, home to
+            iconic landmarks, world-renowned museums, and
+            timeless architectural beauty.
+          </p>
+          <p>
+            Known as the "City of Light" for its role in the
+            Age of Enlightenment and its early adoption of
+            street lighting, Paris enchants visitors with
+            its romantic atmosphere year-round, making it
+            one of the most visited cities in the world. The
+            city perfectly balances its rich historical
+            heritage with modern sophistication, offering
+            world-class cuisine, vibrant cultural life, and
+            an unparalleled artistic legacy.
+          </p>
+          <p>
+            From ancient Gothic cathedrals and grand
+            boulevards to contemporary galleries and
+            charming sidewalk cafés, Paris represents the
+            perfect synthesis of France's glorious past and
+            elegant present. Its romantic culture, exquisite
+            culinary scene, and artistic atmosphere make it
+            a truly magical place to explore, experience,
+            and fall in love with.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="experiences">
+    <div class="experiences-container">
+      
+      <div class="experiences-header">
+        <h2>Experience Paris</h2>
+        <p>Immerse yourself in the sights and sounds of this
+          enchanting city through multimedia highlights.
+        </p>
+      </div>
+
+      <div class="experiences-content">
+        <h3>Paris City Highlights</h3>
+
+        <div class="experiences-video-card">
+          <video controls class="experiences-video" poster="https://images.unsplash.com/photo-1679231926885-0287bbe32008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMHN1bnJpc2UlMjBhZXJpYWwlMjB2aWV3JTIwY2l0eXNjYXBlfGVufDF8fHx8MTc1NzQwMDA5OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral">
+            <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_640x360_1mb.mp4" type="video/mp4" />
+            <p>Your browser does not support the video tag.
+              This cinematic travel video showcases Paris in one minute: starting with an aerial sunrise view,
+              transitioning through close-up shots of the Eiffel Tower (daytime views, people taking photos, sparkling night lights),
+              then exploring the Louvre Museum with its iconic glass pyramid entrance, visitors inside, and famous artworks
+              including the Mona Lisa. Features smooth transitions, warm romantic tones, and cultural background music,
+              ending with a panoramic evening shot of both the Eiffel Tower and Seine river glowing at night.
+            </p>
+          </video>
+
+          <div class="experiences-video-description">
+            <h4>Exploring Eiffel Tower & Louvre</h4>
+            <p>Quick virtual journey through Paris's two
+              most iconic landmarks: the majestic Eiffel
+              Tower and world-renowned Louvre Museum
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <section class="gallerys">
+    <div class="gallerys-container">
+
+      <div class="gallerys-header">
+        <div class="gallerys-header-top">
+          <div class="gallerys-icon">📷</div>
+          <h2>Paris Gallery</h2>
+        </div>
+        <p>Explore the iconic landmarks and beautiful spaces
+          that define Paris's romantic character.
+        </p>
+      </div>
+
+      <div class="gallerys-grid">
+
+        <!-- Eiffel Tower Card -->
+        <div class="gallerys-card">
+          <div class="gallerys-image-wrapper">
+            <img class="gallerys-image"
+              src="https://images.unsplash.com/photo-1696608613193-0f8b28ed7a9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxFaWZmZWwlMjBUb3dlciUyMFBhcmlzJTIwbGFuZG1hcmslMjBzdW5zZXR8ZW58MXx8fHwxNTczOTIwOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              alt="Eiffel Tower - Icon of Romance" />
+            <div class="gallerys-overlay">
+              <h4>Eiffel Tower</h4>
+              <p>Icon of Romance</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Louvre Museum Card -->
+        <div class="gallerys-card">
+          <div class="gallerys-image-wrapper">
+            <img class="gallerys-image"
+              src="https://images.unsplash.com/photo-1718653294612-cb9b43f4d391?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxMb3V2cmUlMjBNdXNldW0lMjBQYXJpcyUyMGFyY2hpdGVjdHVyZXxlbnwxfHx8fDE3NTczOTIwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              alt="Louvre Museum - Art Paradise" />
+            <div class="gallerys-overlay">
+              <h4>Louvre Museum</h4>
+              <p>Art Paradise</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sacré-Cœur Card -->
+        <div class="gallerys-card">
+          <div class="gallerys-image-wrapper">
+            <img class="gallerys-image"
+              src="https://images.unsplash.com/photo-1561370665-7e266065fce1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxNb250bWFydHJlJTIwU2FjcmUlMjBDb2V1ciUyMFBhcmlzfGVufDF8fHx8MTc1NzM5Mjg4NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              alt="Sacré-Cœur Basilica - Spiritual Heights" />
+            <div class="gallerys-overlay">
+              <h4>Sacré-Cœur</h4>
+              <p>Spiritual Heights</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section class="externals">
+    <div class="externals-container">
+
+      <div class="externals-header">
+        <h2>Learn More About Paris</h2>
+        <p>Explore comprehensive guides and resources to plan
+          your visit and discover more about this
+          magnificent city.
+        </p>
+      </div>
+
+      <div class="externals-grid">
+
+        <!-- Paris Tourism Office Card -->
+        <div class="externals-card">
+          <div class="externals-icon-wrapper">
+            <div class="externals-icon">🔗</div>
+          </div>
+          <h4>Paris Tourism Office</h4>
+          <p>Official tourism information for Paris with
+            comprehensive travel guides, events, and expert
+            recommendations.
+          </p>
+          <div class="externals-link-wrapper">
+            <a href="https://www.parisinfo.com/" target="_blank" rel="noopener noreferrer">
+              Visit Paris Tourism 🔗
+            </a>
+          </div>
+        </div>
+
+        <!-- Lonely Planet Card -->
+        <div class="externals-card">
+          <div class="externals-icon-wrapper">
+            <div class="externals-icon">🔗</div>
+          </div>
+          <h4>Lonely Planet Guide</h4>
+          <p>Comprehensive travel guide with insider tips,
+            recommendations, and expert insights for
+            exploring Paris.
+          </p>
+          <div class="externals-link-wrapper">
+            <a href="https://www.lonelyplanet.com/france/paris" target="_blank" rel="noopener noreferrer">
+              Read Lonely Planet Guide 🔗
+            </a>
+          </div>
+        </div>
+
+        <!-- TripAdvisor Card -->
+        <div class="externals-card">
+          <div class="externals-icon-wrapper">
+            <div class="externals-icon">🔗</div>
+          </div>
+          <h4>TripAdvisor</h4>
+          <p>Top attractions, reviews, and things to do in
+            Paris with real traveler experiences and
+            ratings.
+          </p>
+          <div class="externals-link-wrapper">
+            <a href="https://www.tripadvisor.com/Attractions-g187147-Activities-Paris_Ile_de_France.html"
+              target="_blank" rel="noopener noreferrer">
+              Explore on TripAdvisor 🔗
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+<section class="section4s">
+  <div class="container4s">
+    <div class="header4s">
+      <div class="header-content4s">
+        <svg class="icon4s">...</svg>
+        <h2 class="title4s">Top Places to Visit in Paris</h2>
+      </div>
+      <p class="description4s">
+        Discover specific attractions, restaurants, and experiences that make Paris a must-visit destination.
+      </p>
+    </div>
+
+    <div class="places-grid4s">
+      <!-- Musée du Louvre -->
+      <div class="place-card4s blue-gradient4s">
+        <div class="place-icon4s">
+          <svg class="icon-star4s">...</svg>
+        </div>
+        <h4 class="place-title4s">Musée du Louvre</h4>
+        <p class="place-description4s">
+          World's largest art museum with famous works including the Mona Lisa, stunning architecture, and rich cultural history.
+        </p>
+        <a href="https://www.louvre.fr/en" target="_blank" class="place-link4s">
+          Visit Louvre Website
+          <svg class="external-link-icon4s">...</svg>
+        </a>
+      </div>
+
+      <!-- Le Comptoir du Relais -->
+      <div class="place-card4s orange-gradient4s">
+        <div class="place-icon4s">
+          <svg class="icon-star4s">...</svg>
+        </div>
+        <h4 class="place-title4s">Le Comptoir du Relais</h4>
+        <p class="place-description4s">
+          Classic Parisian bistro serving authentic French cuisine, traditional dishes, and an unforgettable dining experience since 1950.
+        </p>
+        <a href="https://www.lecomptoirdurelais.com/" target="_blank" class="place-link4s">
+          View Restaurant Info
+          <svg class="external-link-icon4s">...</svg>
+        </a>
+      </div>
+
+      <!-- Champs-Élysées -->
+      <div class="place-card4s green-gradient4s">
+        <div class="place-icon4s">
+          <svg class="icon-map-pin4s">...</svg>
+        </div>
+        <h4 class="place-title4s">Champs-Élysées</h4>
+        <p class="place-description4s">
+          Famous avenue with luxury boutiques, cafés, theaters, and the Arc de Triomphe. Perfect for elegant shopping and strolling.
+        </p>
+        <a href="https://www.google.com/maps/place/Champs-%C3%89lys%C3%A9es,+Paris,+France/@48.8698,2.3078,17z" target="_blank" class="place-link4s">
+          View on Maps
+          <svg class="external-link-icon4s">...</svg>
+        </a>
+      </div>
+
+      <!-- Montmartre -->
+      <div class="place-card4s blue-gradient4s">
+        <div class="place-icon4s">
+          <svg class="icon-clock4s">...</svg>
+        </div>
+        <h4 class="place-title4s">Montmartre</h4>
+        <p class="place-description4s">
+          Historic artistic neighborhood with Sacré-Cœur, charming cobblestone streets, artists' studios, and vibrant café culture.
+        </p>
+        <a href="https://www.montmartre-guide.com/" target="_blank" class="place-link4s">
+          Explore Montmartre
+          <svg class="external-link-icon4s">...</svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="resources4s">
+      <h3 class="resources-title4s">More Resources for Visiting Paris</h3>
+      <div class="resources-grid4s">
+        <!-- Metro System -->
+        <div class="resource-card4s">
+          <h4 class="resource-title4s">Metro & Transportation</h4>
+          <p class="resource-description4s">
+            Paris Metro, bus, and public transportation information and routes across the city.
+          </p>
+          <a href="https://www.ratp.fr/en" target="_blank" class="resource-link4s">
+            View Transport Info
+            <svg class="external-link-icon4s">...</svg>
+          </a>
+        </div>
+
+        <!-- Weather Info -->
+        <div class="resource-card4s">
+          <h4 class="resource-title4s">Weather Information</h4>
+          <p class="resource-description4s">
+            Current weather and climate information for planning your visit to Paris.
+          </p>
+          <a href="https://weather.com/weather/today/l/Paris+France" target="_blank" class="resource-link4s">
+            Check Weather
+            <svg class="external-link-icon4s">...</svg>
+          </a>
+        </div>
+
+        <!-- Events -->
+        <div class="resource-card4s">
+          <h4 class="resource-title4s">Events & Activities</h4>
+          <p class="resource-description4s">
+            Discover local events, festivals, and cultural activities happening in Paris.
+          </p>
+          <a href="https://www.sortiraparis.com/en" target="_blank" class="resource-link4s">
+            Browse Events
+            <svg class="external-link-icon4s">...</svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer-navigations">
+  <div class="container-navigations">
+    <div class="navigation-flexs">
+      
+      <a href="index.html" class="navigation-link-group">
+        <div class="navigation-icon-wrapper">
+          <svg class="icon-chevron-lefts" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+        </div>
+        <div class="navigation-texts">
+          <p class="navigation-subtext">Previous Page</p>
+          <p class="navigation-maintext">Home</p>
+        </div>
+      </a>
+      
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer-section">
+
+    <div class="container">
+
+      <!-- Main Footer Content -->
+      <div class="footer-grid">
+
+        <!-- Brand Section -->
+        <div class="brand-section">
+          <div class="brand-header">
+            <div class="brand-logo">P</div>
+            <div>
+              <h3 style="color: white;">Paris</h3>
+              <p style="color: white;">City of Light</p>
+            </div>
+          </div>
+
+          <p class="brand-description">
+            Discover the City of Light - where romance meets art, and timeless elegance harmonizes with cultural
+            magnificence.
+          </p>
+
+          <div class="social-icons">
+            <div class="social-icon">✦</div>
+            <div class="social-icon">✧</div>
+            <div class="social-icon">★</div>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-nav">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Paris</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-highlights">
+          <h4>Highlights</h4>
+          <ul>
+            <li><span></span> City of Light</li>
+            <li><span></span> Cultural Capital</li>
+            <li><span></span> Art & Museums</li>
+            <li><span></span> Culinary Excellence</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Section -->
+      <div class="footer-bottom">
+        <p>© 2025 Favorite Place Project</p>
+        <p>Celebrating the beauty of Paris</p>
+      </div>
+
+    </div>
+
+  </footer>
+</body>
+
+</html>
