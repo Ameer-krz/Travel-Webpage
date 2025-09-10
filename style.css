@@ -184,7 +184,6 @@ body{
   padding-bottom: 1rem;
 }
 
-@media (max-width: 767px) {
   .menu-toggle:checked ~ .mobile-menu {
     display: block;
   }
@@ -225,7 +224,7 @@ body{
     cursor: default;
     color: #2563eb;
   }
-}
+
 
 
 
@@ -594,7 +593,7 @@ p {
 
 @media (min-width: 1024px) {
   .dining-grid {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -636,6 +635,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+
 }
 
 .image-card {
@@ -648,6 +648,7 @@ p {
   width: 100%;
   height: auto;
   object-fit: cover;
+    height: 310px;
 }
 
 
@@ -1654,13 +1655,13 @@ body {
   margin-bottom: 4rem;
 }
 
-.header-content4s {
+/* .header-content4s {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
-}
+} */
 
 .title4s {
   font-size: 2rem;
@@ -1686,6 +1687,7 @@ body {
   padding: 1.5rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
+  width: 310px;
 }
 
 .place-card4s:hover {
@@ -1768,6 +1770,7 @@ body {
   padding: 1.5rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   transition: box-shadow 0.3s ease;
+  width: 310px;
 }
 
 .resource-card4s:hover {
@@ -1875,3 +1878,17 @@ body {
 .navigation-maintext {
   font-weight: 500;
 }
+
+
+
+
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
