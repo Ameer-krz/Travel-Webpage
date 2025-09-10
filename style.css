@@ -950,7 +950,7 @@ a.nav-button {
       content: "";
       position: absolute;
       inset: 0;
-      background: url("https://images.unsplash.com/photo-1703529211518-dba6be0f3be0?auto=format&fit=crop&w=1600&q=80") no-repeat center center/cover;
+      background: url("About-Paris.jpg") no-repeat center center/cover;
       z-index: 1;
     }
 
@@ -1687,7 +1687,8 @@ body {
   padding: 1.5rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
-  width: 310px;
+  width: auto;
+  text-align: center;
 }
 
 .place-card4s:hover {
@@ -1698,6 +1699,8 @@ body {
 .blue-gradient4s {
   background: linear-gradient(to bottom right, #ebf8ff, #e0e7ff);
 }
+
+
 
 .orange-gradient4s {
   background: linear-gradient(to bottom right, #fff7ed, #fef3c7);
@@ -1770,7 +1773,7 @@ body {
   padding: 1.5rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   transition: box-shadow 0.3s ease;
-  width: 310px;
+  width: auto;
 }
 
 .resource-card4s:hover {
@@ -1891,4 +1894,73 @@ body {
     font-size: 1.2rem;
   }
 }
+
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.places-sections {
+  padding: 5rem 1rem;
+  background: #fff;
+}
+
+.places-containers {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.places-grids {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .places-grids {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .places-grids {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.place-cardss {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 4place-card4s blue-gradient4spx 
+}
+/* 
+.place-links{
+  text-wrap: nowrap;
+  padding-right: 20px;
+} */
+
+
+.gallerys-header-top{
+  padding-top: 50px;
+}
+
+
+
+strong{
+  color: #1D4ED8;
+
+}
+
+.gallerys-header-top svg{
+  padding-bottom: 15px;
+}
+
+
+
 
