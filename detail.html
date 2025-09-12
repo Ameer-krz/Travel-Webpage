@@ -6,102 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
-    <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
+
 <body>
     <main>
-         <header class="header">
-  <div class="container">
-
-    <div class="header-inner">
-
-      <div class="logo">
-        <div class="logo-icon">
-          <span>P</span>
-        </div>
-        <div class="logo-text">
-          <h1>Paris</h1>
-          <p>City of Light</p>
-        </div>
-      </div>
-
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="detail.html"><button class="nav-button"
-              >Home</button></a>
-          </li>
-          <li><a style="background: #fff; color: #1d4ed8; box-shadow: 0 2px 6px rgba(191,219,254,0.6);" ><button class="nav-button">About Paris</button></a></li>
-        </ul>
-      </nav>
-
-    </div>
-
-    <!-- Move checkbox and hamburger label here so they are siblings of .mobile-menu -->
-    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
-    <label for="menu-toggle" class="hamburger">
-      <div class="line top"></div>
-      <div class="line middle"></div>
-      <div class="line bottom"></div>
-    </label>
-
-    <div class="mobile-menu">
-      <nav>
-        <ul>
-          <li><a style="all:unset" href="index.html"><button class="nav-button"
-              >Home</button></a></li>
-          <li><button class="nav-button" style="background: #fff; color: #1d4ed8; box-shadow: 0 2px 6px rgba(191,219,254,0.6);">About Paris</button></li>
-          <!-- <li><button class="nav-button disabled">Gallery</button></li> -->
-        </ul>
-      </nav>
-    </div>
-
-  </div>
-</header> 
-
-
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <span>P</span>
+                        </div>
+                        <div class="logo-text">
+                            <h1>Paris</h1>
+                            <p>City of Light</p>
+                        </div>
+                    </div>
+                    <nav class="nav-menu">
+                        <ul>
+                            <li><a href="index.html"><button class="nav-button">Home</button></a>
+                            </li>
+                            <li><button
+                                    style="background: #fff; color: #1d4ed8; box-shadow: 0 2px 6px rgba(191,219,254,0.6);"
+                                    class="nav-button">About Paris</button></li>
+                        </ul>
+                    </nav>
+                </div>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+                <label for="menu-toggle" class="hamburger">
+                    <div class="line top"></div>
+                    <div class="line middle"></div>
+                    <div class="line bottom"></div>
+                </label>
+                <div class="mobile-menu">
+                    <nav>
+                        <ul>
+                            <li><a style="all:unset" href="index.html"><button class="nav-button">Home</button></a></li>
+                            <li><button class="nav-button"
+                                    style="background: #fff; color: #1d4ed8; box-shadow: 0 2px 6px rgba(191,219,254,0.6);">About
+                                    Paris</button></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
 
         <section class="heros">
-
-            <!-- <header class="headers">
-      <div class="headers-container">
-
-        <div class="logos">
-          <div class="logos-icon">P</div>
-          <div>
-            <h1>Paris</h1>
-            <p>City of Light</p>
-          </div>
-        </div>
-
-        <nav class="nav-linkss">
-          <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About Paris</a></li>
-            <li><a href="#">Gallery</a></li>
-          </ul>
-        </nav>
-
-        <div class="menu-toggles">
-          <input type="checkbox" id="menu-toggle">
-          <label for="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-          <nav class="mobile-navs">
-            <ul>
-              <li><a href="#" class="active">Home</a></li>
-              <li><a href="#">About Paris</a></li>
-              <li><a href="#">Gallery</a></li>
-            </ul>
-          </nav>
-        </div>
-
-      </div>
-    </header> -->
-
             <div class="heros-content">
                 <div>
                     <h1>About Paris</h1>
@@ -110,9 +60,6 @@
             </div>
 
         </section>
-
-
-
 
         <section class="sections">
             <div class="sections-container">
@@ -154,10 +101,8 @@
             </div>
         </section>
 
-
         <section class="experiences">
             <div class="experiences-container">
-
                 <div class="experiences-header">
                     <h2>Experience Paris</h2>
                     <p>Immerse yourself in the sights and sounds of this
@@ -172,38 +117,35 @@
                         <video controls class="experiences-video"
                             poster="https://images.unsplash.com/photo-1679231926885-0287bbe32008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMHN1bnJpc2UlMjBhZXJpYWwlMjB2aWV3JTIwY2l0eXNjYXBlfGVufDF8fHx8MTc1NzQwMDA5OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral">
                             <source src="vid.mp4" type="video/mp4" />
-                            <p>Your browser does not support the video tag.
-                                This cinematic travel video showcases Paris in one minute: starting with an aerial
-                                sunrise
-                                view,
-                                transitioning through close-up shots of the Eiffel Tower (daytime views, people taking
-                                photos, sparkling night lights),
-                                then exploring the Louvre Museum with its iconic glass pyramid entrance, visitors
-                                inside,
-                                and famous artworks
-                                including the Mona Lisa. Features smooth transitions, warm romantic tones, and cultural
-                                background music,
-                                ending with a panoramic evening shot of both the Eiffel Tower and Seine river glowing at
-                                night.
-                            </p>
+                            <p>Your browser does not support the video tag.</p>
                         </video>
 
                         <div class="experiences-video-description">
                             <h4>Exploring Eiffel Tower & Louvre</h4>
                             <p>Quick virtual journey through Paris's two
                                 most iconic landmarks: the majestic Eiffel
-                                Tower and world-renowned Louvre Museum
+                                Tower and world-renowned Louvre Museum.
                             </p>
                         </div>
+
+                        <div class="flex-20">
+                            <!-- Audio Section -->
+                            <audio controls class="experiences-audio">
+                                <source src="audio.mp3" type="audio/mpeg" />
+                                Your browser does not support the audio element.
+                            </audio>
+
+                            <div class="experiences-audio-description">
+                                <h4>Audio Narration</h4>
+                                <p>This audio provides an immersive narration guiding you through the video, describing
+                                    the scenic Eiffel Tower at sunrise, the bustling Louvre Museum atmosphere, cultural
+                                    significance, and concludes with a soothing view of the Seine river at night.</p>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
-
-
-
 
         <section class="gallerys">
             <div class="gallerys-container">
@@ -226,8 +168,6 @@
                 </div>
 
                 <div class="gallerys-grid">
-
-                    <!-- Eiffel Tower Card -->
                     <div class="gallerys-card">
                         <div class="gallerys-image-wrapper">
                             <img class="gallerys-image" src="Eiffel-Tower.jpg" alt="Eiffel Tower - Icon of Romance" />
@@ -238,7 +178,6 @@
                         </div>
                     </div>
 
-                    <!-- Louvre Museum Card -->
                     <div class="gallerys-card">
                         <div class="gallerys-image-wrapper">
                             <img class="gallerys-image" src="Louvre-Museum.jpg" alt="Louvre Museum - Art Paradise" />
@@ -249,7 +188,6 @@
                         </div>
                     </div>
 
-                    <!-- Sacré-Cœur Card -->
                     <div class="gallerys-card">
                         <div class="gallerys-image-wrapper">
                             <img class="gallerys-image" src="Montmartre-Sacre-Coeur.jpg"
@@ -260,17 +198,9 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
-
-
-
-
-
-
 
         <section class="externals">
             <div class="externals-container">
@@ -282,10 +212,7 @@
                         magnificent city.
                     </p>
                 </div>
-
                 <div class="externals-grid">
-
-                    <!-- Paris Tourism Office Card -->
                     <div class="externals-card">
                         <div class="externals-icon-wrapper">
                             <svg style="color: #1e3a8a" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
@@ -360,10 +287,8 @@
                     </div>
 
                 </div>
-
             </div>
         </section>
-
 
         <section class="section4s">
             <div class="container4s">
@@ -387,7 +312,6 @@
                 </div>
 
                 <div class="places-grid4s">
-                    <!-- Musée du Louvre -->
                     <div class="place-card4s blue-gradient4s">
                         <div class="place-icon4s">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -419,7 +343,6 @@
                         </a>
                     </div>
 
-                    <!-- Le Comptoir du Relais -->
                     <div class="place-card4s orange-gradient4s">
                         <div class="place-icon4s">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -450,7 +373,6 @@
                         </a>
                     </div>
 
-                    <!-- Champs-Élysées -->
                     <div class="place-card4s green-gradient4s">
                         <div class="place-icon4s">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -483,7 +405,6 @@
                         </a>
                     </div>
 
-                    <!-- Montmartre -->
                     <div class="place-card4s blue-gradient4s">
                         <div class="place-icon4s">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -604,21 +525,13 @@
                             <p class="navigation-maintext">Home</p>
                         </div>
                     </a>
-
                 </div>
             </div>
         </section>
 
-
-
         <footer class="footer-section">
-
             <div class="container">
-
-                <!-- Main Footer Content -->
                 <div class="footer-grid">
-
-                    <!-- Brand Section -->
                     <div class="brand-section">
                         <div class="brand-header">
                             <div class="brand-logo">P</div>
@@ -627,21 +540,17 @@
                                 <p style="color: white;">City of Light</p>
                             </div>
                         </div>
-
                         <p class="brand-description">
                             Discover the City of Light - where romance meets art, and timeless elegance harmonizes with
                             cultural
                             magnificence.
                         </p>
-
                         <div class="social-icons">
                             <div class="social-icon">✦</div>
                             <div class="social-icon">✧</div>
                             <div class="social-icon">★</div>
                         </div>
                     </div>
-
-                    <!-- Navigation Links -->
                     <div class="footer-nav">
                         <h4>Navigation</h4>
                         <ul>
@@ -649,8 +558,6 @@
                             <li><a href="#">About Paris</a></li>
                         </ul>
                     </div>
-
-                    <!-- Quick Links -->
                     <div class="footer-highlights">
                         <h4>Highlights</h4>
                         <ul>
@@ -660,17 +567,12 @@
                             <li><span></span> Culinary Excellence</li>
                         </ul>
                     </div>
-
                 </div>
-
-                <!-- Bottom Section -->
                 <div class="footer-bottom">
                     <p>© 2025 Favorite Place Project</p>
                     <p>Celebrating the beauty of Paris</p>
                 </div>
-
             </div>
-
         </footer>
     </main>
 </body>
