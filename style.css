@@ -287,9 +287,6 @@ body {
 
 
 
-.experiences-audio{
-  width: 100%;
-}
 
 
 
@@ -1058,9 +1055,7 @@ a.nav-button {
 
 
 
-audio{
-    width:100%;
-}
+
 
 
 
@@ -1763,7 +1758,9 @@ strong {
   padding-top: 15px;
 }
 
-
+.experiences-audio{
+  width: 100%;
+}
 
 
 
@@ -1993,8 +1990,6 @@ strong {
     font-size: 1.5rem;
   }
 }
-
-
 
 
 
