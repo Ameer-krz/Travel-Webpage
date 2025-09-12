@@ -287,6 +287,9 @@ body {
 
 
 
+.experiences-audio{
+  width: 100%;
+}
 
 
 
@@ -1990,6 +1993,7 @@ strong {
     font-size: 1.5rem;
   }
 }
+
 
 
 
