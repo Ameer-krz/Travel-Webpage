@@ -1055,7 +1055,9 @@ a.nav-button {
 
 
 
-
+audio{
+    width:100%;
+}
 
 
 
@@ -1988,6 +1990,7 @@ strong {
     font-size: 1.5rem;
   }
 }
+
 
 
 
